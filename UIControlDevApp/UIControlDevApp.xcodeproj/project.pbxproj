@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94313661DBE589600879E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94313651DBE589600879E91 /* main.m */; };
+		A94313691DBE589600879E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94313681DBE589600879E91 /* AppDelegate.m */; };
+		A94313711DBE589600879E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94313701DBE589600879E91 /* Assets.xcassets */; };
+		A94313741DBE589600879E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94313721DBE589600879E91 /* LaunchScreen.storyboard */; };
+		A94313AA1DBE5F8D00879E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94313A91DBE5F8D00879E91 /* UIKit.framework */; };
+		A94313AC1DBE5F9400879E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94313AB1DBE5F9400879E91 /* Foundation.framework */; };
+		A94313AE1DBE5F9B00879E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94313AD1DBE5F9B00879E91 /* CoreGraphics.framework */; };
+		A94313B81DBE61BF00879E91 /* libRWUIControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A94313B51DBE61A800879E91 /* libRWUIControls.a */; };
+		A94313C31DBE626700879E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94313C01DBE626700879E91 /* Main.storyboard */; };
+		A94313C41DBE626700879E91 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94313C21DBE626700879E91 /* RWViewController.m */; };
+		A94314091DBF05C300879E91 /* RWUIControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A94314081DBF05C300879E91 /* RWUIControls.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94313B41DBE61A800879E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A94313361DBE552100879E91;
+			remoteInfo = RWUIControls;
+		};
+		A94313B61DBE61B800879E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A94313351DBE552100879E91;
+			remoteInfo = RWUIControls;
+		};
+		A94314071DBF05C300879E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A94313FB1DBF04AD00879E91;
+			remoteInfo = RWUIControlsResources;
+		};
+		A943140A1DBF05CB00879E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A94313FA1DBF04AC00879E91;
+			remoteInfo = RWUIControlsResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94313611DBE589600879E91 /* UIControlDevApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIControlDevApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94313651DBE589600879E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94313671DBE589600879E91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A94313681DBE589600879E91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A94313701DBE589600879E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94313731DBE589600879E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94313751DBE589600879E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94313A91DBE5F8D00879E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A94313AB1DBE5F9400879E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94313AD1DBE5F9B00879E91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RWUIControls.xcodeproj; path = ../../RWUIControls/RWUIControls.xcodeproj; sourceTree = "<group>"; };
+		A94313C01DBE626700879E91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A94313C11DBE626700879E91 /* RWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
+		A94313C21DBE626700879E91 /* RWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A943135E1DBE589600879E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94313B81DBE61BF00879E91 /* libRWUIControls.a in Frameworks */,
+				A94313AE1DBE5F9B00879E91 /* CoreGraphics.framework in Frameworks */,
+				A94313AC1DBE5F9400879E91 /* Foundation.framework in Frameworks */,
+				A94313AA1DBE5F8D00879E91 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94313581DBE589600879E91 = {
+			isa = PBXGroup;
+			children = (
+				A94313631DBE589600879E91 /* UIControlDevApp */,
+				A94313621DBE589600879E91 /* Products */,
+				A94313A81DBE5F8C00879E91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A94313621DBE589600879E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94313611DBE589600879E91 /* UIControlDevApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94313631DBE589600879E91 /* UIControlDevApp */ = {
+			isa = PBXGroup;
+			children = (
+				A94313BF1DBE626700879E91 /* DevApp */,
+				A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */,
+				A94313671DBE589600879E91 /* AppDelegate.h */,
+				A94313681DBE589600879E91 /* AppDelegate.m */,
+				A94313701DBE589600879E91 /* Assets.xcassets */,
+				A94313721DBE589600879E91 /* LaunchScreen.storyboard */,
+				A94313751DBE589600879E91 /* Info.plist */,
+				A94313641DBE589600879E91 /* Supporting Files */,
+			);
+			path = UIControlDevApp;
+			sourceTree = "<group>";
+		};
+		A94313641DBE589600879E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94313651DBE589600879E91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94313A81DBE5F8C00879E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94313AD1DBE5F9B00879E91 /* CoreGraphics.framework */,
+				A94313AB1DBE5F9400879E91 /* Foundation.framework */,
+				A94313A91DBE5F8D00879E91 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94313B11DBE61A800879E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94313B51DBE61A800879E91 /* libRWUIControls.a */,
+				A94314081DBF05C300879E91 /* RWUIControls.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94313BF1DBE626700879E91 /* DevApp */ = {
+			isa = PBXGroup;
+			children = (
+				A94313C01DBE626700879E91 /* Main.storyboard */,
+				A94313C11DBE626700879E91 /* RWViewController.h */,
+				A94313C21DBE626700879E91 /* RWViewController.m */,
+			);
+			path = DevApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94313601DBE589600879E91 /* UIControlDevApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94313781DBE589600879E91 /* Build configuration list for PBXNativeTarget "UIControlDevApp" */;
+			buildPhases = (
+				A943135D1DBE589600879E91 /* Sources */,
+				A943135E1DBE589600879E91 /* Frameworks */,
+				A943135F1DBE589600879E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A943140B1DBF05CB00879E91 /* PBXTargetDependency */,
+				A94313B71DBE61B800879E91 /* PBXTargetDependency */,
+			);
+			name = UIControlDevApp;
+			productName = UIControlDevApp;
+			productReference = A94313611DBE589600879E91 /* UIControlDevApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94313591DBE589600879E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RW;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ThinkMobile;
+				TargetAttributes = {
+					A94313601DBE589600879E91 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A943135C1DBE589600879E91 /* Build configuration list for PBXProject "UIControlDevApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94313581DBE589600879E91;
+			productRefGroup = A94313621DBE589600879E91 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A94313B11DBE61A800879E91 /* Products */;
+					ProjectRef = A94313B01DBE61A800879E91 /* RWUIControls.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A94313601DBE589600879E91 /* UIControlDevApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A94313B51DBE61A800879E91 /* libRWUIControls.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRWUIControls.a;
+			remoteRef = A94313B41DBE61A800879E91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A94314081DBF05C300879E91 /* RWUIControls.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RWUIControls.bundle;
+			remoteRef = A94314071DBF05C300879E91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A943135F1DBE589600879E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94314091DBF05C300879E91 /* RWUIControls.bundle in Resources */,
+				A94313C31DBE626700879E91 /* Main.storyboard in Resources */,
+				A94313741DBE589600879E91 /* LaunchScreen.storyboard in Resources */,
+				A94313711DBE589600879E91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A943135D1DBE589600879E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94313691DBE589600879E91 /* AppDelegate.m in Sources */,
+				A94313C41DBE626700879E91 /* RWViewController.m in Sources */,
+				A94313661DBE589600879E91 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94313B71DBE61B800879E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RWUIControls;
+			targetProxy = A94313B61DBE61B800879E91 /* PBXContainerItemProxy */;
+		};
+		A943140B1DBF05CB00879E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RWUIControlsResources;
+			targetProxy = A943140A1DBF05CB00879E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94313721DBE589600879E91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94313731DBE589600879E91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94313761DBE589600879E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A94313771DBE589600879E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94313791DBE589600879E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIControlDevApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UIControlDevApp/RWUIControls",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.UIControlDevApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A943137A1DBE589600879E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIControlDevApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UIControlDevApp/RWUIControls",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.UIControlDevApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A943135C1DBE589600879E91 /* Build configuration list for PBXProject "UIControlDevApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94313761DBE589600879E91 /* Debug */,
+				A94313771DBE589600879E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94313781DBE589600879E91 /* Build configuration list for PBXNativeTarget "UIControlDevApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94313791DBE589600879E91 /* Debug */,
+				A943137A1DBE589600879E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94313591DBE589600879E91 /* Project object */;
+}
